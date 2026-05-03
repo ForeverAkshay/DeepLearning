@@ -1,10 +1,10 @@
-# 📖 Bias Detection in Children's Story Premises
+# Bias Detection in Children's Story Premises
 
 An NLP-based analysis of 100 AI-generated children's story premises to detect, quantify, and visualise potential biases across gender, race/ethnicity, geography, theme, and character roles.
 
 ---
 
-## 📦 Dataset — premises.csv
+## Dataset — premises.csv
 
 | Detail | Info |
 |---|---|
@@ -18,7 +18,7 @@ Each row is a single text premise describing the setup of a children's story. Th
 
 ---
 
-## 🔍 What is Analysed & Why
+## What is Analysed & Why
 
 ### 1. Gender Bias
 **What:** Counts male-coded and female-coded terms (pronouns, roles, titles) and gendered adjectives across all 100 premises.
@@ -61,7 +61,7 @@ Each row is a single text premise describing the setup of a children's story. Th
 
 ---
 
-## ⚙️ How to Run (Step by Step)
+## How to Run (Step by Step)
 
 ### 1. Prerequisites
 - A **Google account**
@@ -86,7 +86,7 @@ Each row is a single text premise describing the setup of a children's story. Th
   4. Print summary statistics for each dimension
   5. Generate and save visualisation charts as PNG files
 
-> ✅ No GPU needed — this notebook runs fine on the default CPU runtime.
+>  No GPU needed — this notebook runs fine on the default CPU runtime.
 
 ### 5. View & Download Output Charts
 
@@ -102,7 +102,7 @@ To download: right-click any file in the left sidebar → **Download**.
 
 ---
 
-## 📚 Libraries Used
+## Libraries Used
 
 | Library | Purpose |
 |---|---|
@@ -118,7 +118,7 @@ All libraries are installed automatically by the first cell of the notebook.
 
 ---
 
-## 📊 Expected Output
+## Expected Output
 
 - Printed summary tables for each bias dimension
 - Bar charts, pie charts, and word clouds for each analysis
@@ -127,7 +127,7 @@ All libraries are installed automatically by the first cell of the notebook.
 
 ---
 
-## 📝 Notes
+## Notes
 
 - The keyword lists (gender terms, ethnic groups, regions) are defined at the top of each analysis section and can be extended or modified to broaden the analysis
 - Stories with no gendered terms are labelled "Gender-neutral" rather than "Balanced"
