@@ -1,10 +1,10 @@
-# 🐦 Bird Species Classification — CUB-200-2011
+# Bird Species Classification — CUB-200-2011
 
 Fine-grained classification of 200 bird species using deep learning. Two models are built and compared: a pretrained ResNet152 fine-tuned for high accuracy, and a fully custom CNN trained from scratch to demonstrate architectural understanding.
 
 ---
 
-## 📦 Dataset — CUB-200-2011
+## Dataset — CUB-200-2011
 
 | Detail | Info |
 |---|---|
@@ -19,7 +19,7 @@ The dataset includes bounding box annotations for every image. These are used to
 
 ---
 
-## 🤖 Models
+## Models
 
 ### Model A — ResNet152 (Pretrained)
 
@@ -43,7 +43,7 @@ To contrast against transfer learning and show the performance gap between a mod
 
 ---
 
-## 🔁 Training Pipeline
+## Training Pipeline
 
 ```
 Raw Image
@@ -65,7 +65,7 @@ Model → 200-class Softmax Output
 
 ---
 
-## ⚙️ How to Run (Step by Step)
+## How to Run (Step by Step)
 
 ### 1. Prerequisites
 - A **Google account** with Google Drive
@@ -101,7 +101,7 @@ Model → 200-class Softmax Output
 
 ---
 
-## 📚 Libraries Used
+## Libraries Used
 
 | Library | Purpose |
 |---|---|
@@ -115,7 +115,7 @@ Model → 200-class Softmax Output
 
 ---
 
-## 📊 Expected Output
+## Expected Output
 
 - Per-epoch training and validation accuracy/loss
 - Final test set metrics: accuracy, precision, recall, F1
@@ -125,7 +125,7 @@ Model → 200-class Softmax Output
 
 ---
 
-## 🔢 Reproducibility
+## Reproducibility
 
 All random seeds are fixed to `42`:
 ```python
